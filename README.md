@@ -17,14 +17,16 @@ Returns
 Daily Volume
 * If the DQ ticker showed high daily trading, we could rationalize holding on the investment. 
 * Once again, due to its 2018 performance, we found that its daily trading volume had no positive impact on the -63% drop for the year. This stock in particular is very risky. 
+* Taking a closer look at 2018 (a down year for most green investments); we did identify "ENPH" (+81%) and "RUN" (+84%) as viable options for investment. In fact, going back to their 2017 performance, (ENPH - +129%, RUN +5.5%) makes us question if Steve's parents should consider selling on the DQ stock. 
+* However, we must also consider that the 2017 volume for each display over 200,000,000 daily trades vs the DQ daily volume of 35,000,000. This supports our theory that the daily volume could translate to higher performing stocks. 
 ## Comparing AllStockAnalysis vs Refactored Version
 Although both have the same run output (different timing); we do notice the following: 
 Code Differences at a glance 
 * Screenshot 
 Ticker
-*
+* We created a variable as a string to hold 12 elements since we have 12 tickers to track. The tickerIndex function allows us to index and return values from the table
 Totaly Daily Volume
-*
+* We used: tickerVolumes = tickerVolumes + Cells(i,8).Va
 Yearly Return 
 *
 Loops
