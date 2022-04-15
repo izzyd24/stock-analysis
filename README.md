@@ -25,12 +25,14 @@ Code Differences at a glance
 * Screenshot 
 Ticker
 * We created a variable as a string to hold 12 elements since we have 12 tickers to track. The tickerIndex function allows us to index and return values from the table
-Totaly Daily Volume
-* We used: tickerVolumes = tickerVolumes + Cells(i,8).Va
-Yearly Return 
-*
-Loops
-*
+* Code: tickerIndex = tickers(i)
+We also dedicated a section in the refractored module to have three output arrays as follows: 
+  Dim tickerVolumes As Long
+  Dim tickerStartingPrices As Single
+  Dim tickerEndingPrices As Single
+Once we set this up, we used the folowing to calculate the yearly return: 
+  XX
+  XX
 Formatting
 *
 Run Time
