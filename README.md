@@ -7,6 +7,7 @@ Through VBA we are automating the process of looking through the 17/18' data.
 For this module challenge we have both the 'green stocks' and 'VBa_Challenge' files. The green stocks file is our inital output, whereas the second file uses refractoring to make the timing more efficient (moving away from nested for loops). 
 Steve's parents are invested in DAQO (DQ stock). We want to compare this to our tickers and see if it is worth investing. 
 For outputs, we have the ticker, total daily volume, and the return as a percentage with condotional formatting 
+
 ## Results
 <img width="399" alt="Stocks Compared" src="https://user-images.githubusercontent.com/102266450/163507235-13fddd10-b1c7-4c36-8344-f2671a3471b1.png">
 By looking at both the stock outputs for 2017 and 2018; we see the following: 
@@ -20,6 +21,7 @@ Daily Volume
 * Once again, due to its 2018 performance, we found that its daily trading volume had no positive impact on the -63% drop for the year. This stock in particular is very risky. 
 * Taking a closer look at 2018 (a down year for most green investments); we did identify "ENPH" (+81%) and "RUN" (+84%) as viable options for investment. In fact, going back to their 2017 performance, (ENPH - +129%, RUN +5.5%) makes us question if Steve's parents should consider selling on the DQ stock. 
 * However, we must also consider that the 2017 volume for each display over 200,000,000 daily trades vs the DQ daily volume of 35,000,000. This supports our theory that the daily volume could translate to higher performing stocks. 
+
 ## Comparing AllStockAnalysis vs Refactored Version
 Although both have the same run output (different timing); we do notice the following: 
 Code Differences at a glance 
