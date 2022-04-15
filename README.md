@@ -30,15 +30,10 @@ Although both have the same run output (different timing); we do notice the foll
 
 Ticker
 * We created a variable as a string to hold 12 elements since we have 12 tickers to track. The tickerIndex function allows us to index and return values from the table
-* Code screenshot here
+![loop ref](https://user-images.githubusercontent.com/102266450/163507954-e76e31b5-9d99-4437-99c2-ca1d37488d92.PNG)
 
-We also dedicated a section in the refractored module to have three output arrays as follows: 
-* Code screenshot here
-Once we set this up, we used the folowing to calculate the yearly return: 
-* Code screenshot here
-
-Formatting
-* Code screenshot here
+This is a much more efficient way of running through our tickers, whereas previosuly our code was as follows: 
+![loop non ref](https://user-images.githubusercontent.com/102266450/163508019-a706c207-516c-4373-9d79-3b725eeda093.PNG)
 
 Run Time
 ![VBA Non Ref 2017](https://user-images.githubusercontent.com/102266450/163507369-e317225a-a468-4090-8997-a2c609770cf8.png)
@@ -48,12 +43,7 @@ Run Time
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/102266450/163507379-d066c705-0100-4816-b47c-65edcbfaaaa7.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/102266450/163507381-0204f136-1f6e-47ea-9735-4de6719fdffb.png)
 
-
+We saw that a 140% difference between the run time of .0625 (2018) refactored versus the non-refactored run-time of .4218 (2018). Although the task of automating our code without nested loops was challenging, we can clearly see that speed matters---especially when making financial decisions. 
 
 ## Advantages and Disadvantages to refactoring
-Pros
-* X
-* X
-Cons
-* X
-* X
+
