@@ -8,6 +8,7 @@ For this module challenge we have both the 'green stocks' and 'VBa_Challenge' fi
 Steve's parents are invested in DAQO (DQ stock). We want to compare this to our tickers and see if it is worth investing. 
 For outputs, we have the ticker, total daily volume, and the return as a percentage with condotional formatting 
 ## Results
+<img width="399" alt="Stocks Compared" src="https://user-images.githubusercontent.com/102266450/163507235-13fddd10-b1c7-4c36-8344-f2671a3471b1.png">
 By looking at both the stock outputs for 2017 and 2018; we see the following: 
 Returns
 * 2017 outpeformed 2018 for green stocks in positive (green marked) returns. 
